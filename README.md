@@ -21,5 +21,5 @@ Pre Entrega 3 tu primer pagina
 superuser admin c admin email admin@admin.com
 
 ---
-codigo
+codigo 1
 ---
