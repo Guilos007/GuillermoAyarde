@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+
+{% block contenido %}
+    {% for profesor in profesores %}
+        <ul>
+            <li>
+                {{profesor.nombre}}
+                {{profesor.apellido}}
+                {{profesor.mail}}
+            </li>
+        </ul>
+    {% endfor %}
+{% endblock contenido %}
